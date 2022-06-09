@@ -99,6 +99,26 @@ main {
   display: none;
 }
 
+/* mobile-links style */
+
+.mobile-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 3.2rem;
+  color: #ffffff;
+}
+
+.background {
+  position: absolute;
+  top: 10rem;
+  background-color: #33323d;
+  width: 80%;
+  left: 15%;
+  padding: 4rem;
+  z-index: 100;
+}
+
 @media screen and (min-width: 425px) {
   .header-links {
     display: flex;

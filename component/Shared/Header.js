@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import MobileMenu from "./MobileMenue";
 import { useState } from "react";
 
 import styles from "../../styles/header.module.css";
@@ -30,6 +30,8 @@ export default function Header() {
         <span></span>
         <span></span>
       </button>
+
+      {showNavbar && <MobileMenu />}
     </nav>
   );
 }
