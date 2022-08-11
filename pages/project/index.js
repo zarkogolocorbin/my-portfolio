@@ -1,12 +1,13 @@
 import Layout from "../../component/Shared/Layout";
 import ProjectComponent from "../../component/Project/Project";
-import { PrismaClient } from "@prisma/client";
-const prisma = new PrismaClient();
+//import data.json
+import data from "../../data.json";
 
-export default function ProjectPage({ data }) {
+export default function ProjectPage({ projects }) {
+  console.log(projects);
   return (
     <Layout title={"Portfolio | Projects"}>
-      {data.map((project, index) => {
+      {projects.map((project, index) => {
         return <ProjectComponent project={project} key={index} />;
       })}
     </Layout>
@@ -14,10 +15,10 @@ export default function ProjectPage({ data }) {
 }
 
 export async function getServerSideProps() {
-  const projects = await prisma.project.findMany();
+  const projects = data;
   return {
     props: {
-      data: projects,
+      projects,
     },
   };
 }

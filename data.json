@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Huddle landing page with alternating feature blocks",
+    "text": "This project was built in pure HTML and CSS. I had mobile and desktop designs to work with and built it, so that it was fully responsive. I used modern CSS, like Flexbox and Grid for layout purposes and I took a mobile-first approach.",
+    "mainImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721733/portfolio/huddle-landing-page-website_k9ruur.png",
+    "heroImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721734/portfolio/hero/hundle-landing-page-hero_my1khw.png",
+    "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721732/portfolio/mobile-design/hundle-landingpage-mpbiledesign_zksccz.png",
+    "slug": "huddle-landing-page-with-alternating-feature-blocks",
+    "urlLocation": "https://huddle-landing-page-website.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Dine Restaurant",
+    "text": "This project required from me to build a fully responsive multi page website to the designs provided. I used React, a JavaScript library for building user interfaces. React Router for page navigation and Vanilla CSS to style pages of the project.",
+    "mainImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721732/portfolio/Dine_restaurant_z3e6va.png",
+    "heroImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721734/portfolio/hero/dine-restaurant-hero_yxbrbe.png",
+    "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721734/portfolio/mobile-design/dine-restaurant-mobiledesign_vzxbxu.png",
+    "slug": "dine-restaurant",
+    "urlLocation": "https://dine-restaurant-jex4ck3xi-zarkogolocorbin.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "Scoot multipage website",
+    "text": "This project was a challenge for me. I solved it by using the JavaScript library React, for building user interfaces and for page routing I used React Router library. Animations for this project were done with the help of Framer Motion. And for styling I used styled components.",
+    "mainImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721733/portfolio/scoot-multipage-website_p2673y.png",
+    "heroImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721734/portfolio/hero/scoot-multipage-website-hero_ko6ict.png",
+    "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721733/portfolio/mobile-design/scoot-mutlipage-website-mobiledesign_rwbfxl.png",
+    "slug": "scoot-multipage-website",
+    "urlLocation": "https://scoot-multi-page-website-theta.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Designo multi-page website",
+    "text": "This project was the most complex one I have done so far. It consists of a frontend part, built with React framework Next.js. Styling for the project has been done with the help of CSS Modules and to give it a smooth page transition I used Framer Motion.",
+    "mainImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721732/portfolio/designo-multi-page_website_edolhc.png",
+    "heroImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721733/portfolio/hero/design-multipage-website-hero_cavpjn.png",
+    "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721732/portfolio/mobile-design/designo-multipage-mobiledesign_lrozcu.png",
+    "slug": "designo-multi-page-website",
+    "urlLocation": "https://designo-multipage-website-omega.vercel.app/"
+  }
+]

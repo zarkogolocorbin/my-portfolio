@@ -8,14 +8,14 @@ export default function ProjectComponent({ project }) {
     <article className={styles.project}>
       <div className={styles["project-image"]}>
         <Image
-          src={project.imageUrl}
+          src={project.mainImgUrl}
           width={540}
           height={500}
           alt={project.name}
         />
       </div>
       <div className={styles["project-content"]}>
-        <h2>{project.name}</h2>
+        <h2>{project.title}</h2>
         <p>{project.text}</p>
         <Link href={`project/${project.slug}`} passHref>
           <p className="button">view project</p>

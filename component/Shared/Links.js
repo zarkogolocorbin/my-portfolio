@@ -1,7 +1,6 @@
 import Link from "next/link";
-import styles from "../../styles/header.module.css";
+// import styles from "../../styles/header.module.css";
 export default function LinksComponents({ component }) {
-  console.log(component);
   return (
     <ul className={`links ${component}-links`}>
       <li>

@@ -8,14 +8,14 @@ export default function ProjectDetailsComponent({ project }) {
   return (
     <section className={styles.project}>
       <Image
-        src={project.imageHeroUrl}
+        src={project.heroImgUrl}
         width={1110}
         height={500}
         alt={project.slug}
       />
       <div className={styles["project-center"]}>
         <div className={styles["project-content"]}>
-          <h2>{project.name}</h2>
+          <h2>{project.title}</h2>
           <p>{project.text}</p>
           <p>
             This project was a front-end challenge from Frontend Mentor. Each
@@ -25,7 +25,7 @@ export default function ProjectDetailsComponent({ project }) {
             coding problems. I’ve learned something new with each project,
             helping me to improve and adapt my style.
           </p>
-          <Link href={project.urlProject}>
+          <Link href={project.urlLocation}>
             <a target="_blank" className="button">
               visit website
             </a>
@@ -33,13 +33,13 @@ export default function ProjectDetailsComponent({ project }) {
         </div>
         <div className={styles["project-image"]}>
           <Image
-            src={project.imageUrl}
+            src={project.mainImgUrl}
             width={540}
             height={450}
             alt={project.name}
           />
           <Image
-            src={project.imageMobileUrl}
+            src={project.mobileImgUrl}
             width={540}
             height={400}
             alt={project.name}
