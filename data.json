@@ -38,5 +38,15 @@
     "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1653721732/portfolio/mobile-design/designo-multipage-mobiledesign_lrozcu.png",
     "slug": "designo-multi-page-website",
     "urlLocation": "https://designo-multipage-website-omega.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "Audiophile e-commerce website",
+    "text": "This project was the most complex one I have done so far. It consists of a frontend part, built with React framework Next.js. Styling for the project has been done with the help of CSS Modules and to give it a smooth page transition I used Framer Motion. For data management I used the useContext hook.",
+    "mainImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1660552625/portfolio/audiophile-ecommerce-websit_rc3gdg.png",
+    "heroImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1660552653/portfolio/hero/audiophile-ecommerce-websit-hero_hjvams.png",
+    "mobileImgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1660552636/portfolio/mobile-design/audiophile-ecommerce-websit-mobile-design_thrkk3.png",
+    "slug": "audiophile-e-commerce-website",
+    "urlLocation": "https://audiophile-ecommerce-websit.vercel.app/"
   }
 ]

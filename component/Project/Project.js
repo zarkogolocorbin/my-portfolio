@@ -12,6 +12,8 @@ export default function ProjectComponent({ project }) {
           width={540}
           height={500}
           alt={project.name}
+          placeholder="blur"
+          blurDataURL="/assets/default image.png"
         />
       </div>
       <div className={styles["project-content"]}>
